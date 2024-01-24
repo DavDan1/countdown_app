@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url('../public/tekken8.png') no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(242, 238, 238);
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.main-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
