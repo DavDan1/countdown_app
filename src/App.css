@@ -11,10 +11,12 @@
 
 .countdown {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  font-size: 5rem;
+  flex-direction: column; /* Change to column layout for mobile */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text */
+  font-size: 3rem; /* Reduce font size for mobile */
   font-weight: bold;
+  margin-top: 10px; /* Add spacing between countdown elements */
 }
 
 .main-ctn {
@@ -22,4 +24,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* Larger screens (tablets and above) */
+@media screen and (min-width: 601px) {
+  .countdown {
+    flex-direction: row; /* Switch back to row layout for larger screens */
+    font-size: 5rem; /* Increase font size for larger screens */
+    margin-top: 0; /* Remove spacing between countdown elements */
+  }
 }
