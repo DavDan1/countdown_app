@@ -13,7 +13,7 @@ const CountdownTimer: React.FC = () => {
           <h1>Tekken 8 Tournament</h1>
           <p>Time left</p>
           <div className="countdown">
-            <div style={{alignItems: "center"}}>{days}d</div>
+            <div style={{alignItems: "center"}}>{days}day</div>
             <div>{hours}h</div>
             <div>{minutes}m</div>
             <div>{seconds}s</div>
